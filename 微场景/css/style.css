@@ -45,6 +45,7 @@ body {
 
 .s1 {
     background: url(../img/bj.png);
+    background-size: cover;
     height: 100%;
 }
 
