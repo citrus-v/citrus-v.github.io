@@ -8,7 +8,6 @@ body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color: #00eac0;
     margin: 0;
     padding: 0;
 }
@@ -98,7 +97,7 @@ body {
     margin-bottom: 20px;
 }
 
-.s1 .main img9{
+.s1 .main .img9{
     background: url(../img/9.png);
     background-size: cover;
     width: 207px;
@@ -107,7 +106,7 @@ body {
     font-weight: bold;
 }
 .s1 .footer{
-    color: white;
+        color: #00eac0;
     position: absolute;
     bottom: 0;
     left: 0;
