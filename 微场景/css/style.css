@@ -95,4 +95,42 @@ body {
 
 .s1 .main img:nth-of-type(2) {
     width: 80%;
+    margin-bottom: 20px;
+}
+
+.s1 .main img9{
+    background: url(../img/9.png);
+    background-size: cover;
+    width: 207px;
+    height: 24px;
+    margin: auto;
+    font-weight: bold;
+}
+.s1 .footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.s1 .footer h2{
+    font-size: 18px;
+}
+.s1 .footer p:nth-of-type(1){
+    font-style: 16px;
+    margin-bottom: 40px;
+}
+.s1 .footer p:nth-of-type(2){
+    height: 70px;
+}
+.s1 .footer img{
+    height: 70px;
+    position: absolute;
+    left: 0;
+}
+.s1 .footer img:nth-of-type(1){
+    left: 0;
+}
+.s1 .footer img:nth-of-type(2){
+    left: -90px;
 }
