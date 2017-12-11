@@ -246,3 +246,6 @@ body {
 .s2 .footer img:nth-of-type(2) {
     left: -90px;
 }
+.header .tada{
+    animation-iteration-count:infinite;
+}
