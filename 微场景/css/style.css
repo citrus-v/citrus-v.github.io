@@ -205,7 +205,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 0; 
     width: 80%;
     margin: auto;
     text-align: left;
@@ -246,6 +246,7 @@ body {
 .s2 .footer img:nth-of-type(2) {
     left: -90px;
 }
-.header .tada{
+.header .tada,
+.header .swing{
     animation-iteration-count:infinite;
 }
