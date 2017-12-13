@@ -44,10 +44,25 @@ body {
     right: auto;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size: 17px 34px;
+    z-index: 101;
+    animation: buttonnext 1.3s infinite;
+}
+@keyframes buttonnext{
+    0%{
+        bottom:5%;
+        opacity: 1;
+    }
+    100%{
+        bottom:10%;
+        opacity: 0;
+    }
 }
 
 
-/* s1 */
+/* 通用背景 */
 
 .s1,
 .s2,
@@ -61,10 +76,86 @@ body {
     height: 100%;
 }
 
+/* 通用音乐按钮 */
+#mp3btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;line-height: 30px;
+    border: 3px solid rgba(76,76,76,0.62);
+    transform:rotateZ(0deg);
+    animation: mp3btnkey 2.5s linear infinite;
+}
+@keyframes mp3btnkey{
+    0%{
+        transform: rotateZ(0deg)
+    }
+    100%{
+        transform: rotateZ(360deg)
+    }
+}
+#mp3btn img{
+    width: 10px;
+}
+
+/* 通用底部波浪 */
+
+#footer{
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+}
+#footer img {
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#footer img:nth-of-type(1) {
+    left: 0px;
+    animation: footerimg1 1s alternate infinite;
+}
+
+#footer img:nth-of-type(2) {
+    left: -90px;
+    animation: footerimg2 3s alternate infinite;
+}
+@keyframes footerimg1{
+    0%{
+        left: 0;
+    }
+    100%{
+        left:20px;}
+}
+    @keyframes footerimg2{
+    0%{
+        left: -90px;
+    }
+    100%{
+        left:-110px;}
+}
+
+
+/* s1 */
+
 .s1 .header img {
     position: absolute;
 }
 
+.s1 .header .tada,
+.s1 .header .swing{
+    animation-iteration-count:infinite;
+}
+.s1 .header .swing{
+    transform-origin: center;
+}
 .s1 .header img:nth-of-type(1) {
     width: 35px;
     top: 120px;
@@ -231,55 +322,5 @@ body {
     background-image: -webkit-linear-gradient(to right, #00e7f9, #00fd9d);
     background-image: linear-gradient(to right, #00e7f9, #00fd9d);
 }
-#footer{
-    width: 100%;
-    height: 100px;
-    z-index: 100;
-    position: absolute;
-    bottom: 0;
-}
-#footer img {
-    height: 70px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-}
 
-#footer img:nth-of-type(1) {
-    left: 0px;
-}
 
-#footer img:nth-of-type(2) {
-    left: -90px;
-}
-.header .tada,
-.header .swing{
-    animation-iteration-count:infinite;
-}
-.header .swing{
-    transform-origin: center;
-}
-#mp3btn{
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    z-index: 100;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;line-height: 30px;
-    border: 3px solid rgba(76,76,76,0.62);
-    transform:rotateZ(0deg);
-    animation: mp3btnkey 2.5s linear infinite;
-}
-@keyframes mp3btnkey{
-    0%{
-        transform: rotateZ(0deg)
-    }
-    100%{
-        transform: rotateZ(360deg)
-    }
-}
-#mp3btn img{
-    width: 10px;
-}
