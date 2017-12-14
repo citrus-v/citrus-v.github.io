@@ -11,14 +11,12 @@
             margin: 0;
             box-sizing: border-box;
         }
-        
         body {
             width: 80%;
             margin: 0 auto;
             padding-top: 30px;
             font-family: 楷体;
         }
-        
         a {
             text-decoration: none;
             color:darkslategrey;
@@ -27,50 +25,58 @@
             display: block;
             padding: 1px;
         }
-        
         a:hover {
             color:dodgerblue;
         }
         #txt{
             font-size: 20px;
         }
+        #zero{
+            animation: zero1 1.7s;
+            display: none;
+        }
+        @keyframes zero1{
+            0%{
+                opacity: 1;
+            }
+            25%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            75%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 
 <body onLoad="type()">
+    <div id="txt"></div>
     <div id="zero">
-        <div id="txt"></div>
-        <a href="http://bigjpg.com" id="a"><div id="one1"></div></a> 
-        <a href="wcj/index.html" id="b"><div id="two1"></div></a>
+                <a href="http://bigjpg.com" id="a">1、图片不失真渲染放大
+                    <div id="one1"></div>
+                </a> 
+                <a href="wcj/index.html" id="b">2、微场景年会邀请函。
+                    <div id="two1"></div>
+                </a>
     </div>
-    
     <script>
-        text = '稍等，Loading....';
-        one = '1、图片不失真渲染放大。';
-        two = '2、微场景年会邀请函。';
+        text = '稍等，Loading...';
         i = 0;
-        o = 0;
-        t = 0;
          function type(){ 
             str  = text.substr(0,i);
             txt.innerHTML = str + "_";
             i++;
-          if (i>text.length){
-              ostr = one.substr(0,o);
-              o++;
-              one1.innerHTML = ostr + "_";
-              txt.style.display="none";
-              if(o>one.length){
-                  one1.innerHTML = ostr;
-                  tstr = two.substr(0,t);
-                  t++;
-                  two1.innerHTML = tstr + '_';
-                  if(t>one.length){
-                      two1.innerHTML = tstr;
-                  }
-              }
-          };
-          setTimeout("type()",300);
+            if (i>text.length){
+                txt.style.display="none";
+                zero.style.display="block";
+            }
+          setTimeout("type()",200);
          }
 </script>
 </body>
