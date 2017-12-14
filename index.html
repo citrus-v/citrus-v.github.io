@@ -15,6 +15,7 @@
             width: 80%;
             margin: 0 auto;
             padding-top: 30px;
+            font-family: 楷体;
         }
         
         a {
@@ -22,7 +23,6 @@
             color:darkslategrey;
             font-weight: 600;
             font-size: 21px;
-            font-family: 楷体;
             letter-spacing: -1.7px;
             display: block;
             padding: 1px;
@@ -32,12 +32,48 @@
             color:dodgerblue;
             text-decoration: underline;
         }
+        #txt{
+            font-size: 20px;
+        }
     </style>
 </head>
 
-<body>
-    <a href="http://bigjpg.com">0、图片不失真渲染放大</a> 
-    <a href="wcj/index.html">1、微场景年会邀请函</a>
-</body>
+<body onLoad="type()">
+    <div id="zero">
+        <div id="txt"></div>
+        <a href="http://bigjpg.com" id="a"><div id="one1"></div></a> 
+        <a href="wcj/index.html" id="b"><div id="two1"></div></a>
+    </div>
+    
+    <script>
+        text = '稍等，Loading....';
+        one = '1、图片不失真渲染放大。';
+        two = '2、微场景年会邀请函。';
+        i = 0;
+        o = 0;
+        t = 0;
+         function type(){ 
+            str  = text.substr(0,i);
+            txt.innerHTML = str + "_";
+            i++;
+          if (i>text.length){
+              ostr = one.substr(0,o);
+              o++;
+              one1.innerHTML = ostr + "_";
+              txt.style.display="none";
+              if(o>one.length){
+                  one1.innerHTML = ostr;
+                  tstr = two.substr(0,t);
+                  t++;
+                  two1.innerHTML = tstr + '_';
+                  if(t>one.length){
+                      two1.innerHTML = tstr;
+                  }
+              }
 
+          };
+          setTimeout("type()",300);
+         }
+</script>
+</body>
 </html>
