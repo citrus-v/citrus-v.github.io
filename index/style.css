@@ -1,0 +1,52 @@
+ * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 30px;
+            font-family: 楷体;
+        }
+        a {
+            text-decoration: none;
+            color:darkslategrey;
+            display: block;
+        }
+        a:hover {
+            color:dodgerblue;
+        }
+        #txt{
+            font-size: 20px;
+        }
+        #zero{
+            color:darkslategrey;
+            font-size: 21px;
+            letter-spacing: -1.7px;
+            padding: 1px;
+            animation: zero1 1.7s;
+            display: none;
+        }
+        @keyframes zero1{
+            0%{
+                opacity: 1;
+            }
+            25%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            75%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        span{
+            display: block;
+            margin-top: 20px;
+            margin-left:-20px;
+        }

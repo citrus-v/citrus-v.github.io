@@ -5,85 +5,20 @@
     <meta charset="UTF-8">
     <title>citrus-v</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body {
-            width: 80%;
-            margin: 0 auto;
-            padding-top: 30px;
-            font-family: 楷体;
-        }
-        a {
-            text-decoration: none;
-            color:darkslategrey;
-            font-size: 21px;
-            letter-spacing: -1.7px;
-            display: block;
-            padding: 1px;
-        }
-        a:hover {
-            color:dodgerblue;
-        }
-        #txt{
-            font-size: 20px;
-        }
-        #zero{
-            animation: zero1 1.7s;
-            display: none;
-        }
-        @keyframes zero1{
-            0%{
-                opacity: 1;
-            }
-            25%{
-                opacity: 0;
-            }
-            50%{
-                opacity: 1;
-            }
-            75%{
-                opacity: 0;
-            }
-            100%{
-                opacity: 1;
-            }
-        }
-        span{
-            display: block;
-            margin-top: 20px;
-            margin-left:-20px;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="index/style.css"> </head>
 
 <body onLoad="type()">
     <div id="txt"></div>
-    <div id="zero">
-               <span><a href="#">功能网址：</a></span>
-                <a href="http://bigjpg.com">1、图片不失真渲染放大
-                </a> 
-                <span><a href="#">微场景：</a></span>
-                <a href="wcj/index.html">1、年会邀请函。
-                </a>
-                
+    <div id="zero"> 
+        <p><span><a href="#">个人主页</a></span></p>
+        <p><span>功能网址：</span></p>
+        <p><a href="http://bigjpg.com" target="_blank">1、图片不失真渲染放大.</a></p>
+        <p><a href="http://www.swiper.com.cn/" target="_blank">2、swiper 中文网</a></p>
+        <p><a href="http://www.bootcdn.cn/" target="_blank">3、cdn 链接地址</a></p>
+        <p><span>微场景：</span></p> 
+        <p><a href="nianhuiyaoqinghan/index.html" target="_blank">1、年会邀请函。</a></p> 
     </div>
-    <script>
-        text = '稍等，Loading...';
-        i = 0;
-         function type(){ 
-            str  = text.substr(0,i);
-            txt.innerHTML = str + "_";
-            i++;
-            if (i>text.length){
-                txt.style.display="none";
-                zero.style.display="block";
-            }
-          setTimeout("type()",200);
-         }
-</script>
+    <script src="index/script.js"></script>
 </body>
+
 </html>
