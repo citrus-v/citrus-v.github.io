@@ -13,6 +13,7 @@
      color: darkslategrey;
      display: block;
      padding-left: 23px;
+     text-decoration: none;
  }
  
  a:hover {
@@ -35,7 +36,7 @@
      letter-spacing: -1.7px;
      padding: 1px;
      animation: zero1 1.7s;
-/*     display: none;*/
+     display: none;
  }
 h1{
     display: inline-block;
