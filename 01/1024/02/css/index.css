@@ -1,0 +1,212 @@
+/*----通用样式----*/
+body,ul,li,h1,p,h3{
+	margin:0px;
+	padding:0px;
+	}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
+.warper{
+	width:974px;
+	margin:0 auto;
+	}
+.logo li,.logo p,.nav,.font,.containt-left,.containt-right{
+	float:left;
+	}
+li{
+	list-style:none;
+	}
+.clear{
+	clear:both;
+	}
+.nav a,.font{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+/*----通用样式----*/
+
+/*----head部分----*/
+.header{
+	background:url(../images/warper_bg.gif) no-repeat;
+	margin-left:-20px;
+	height:466px;
+	}
+.head{
+	margin:60px 0px 0px 20px;
+	}
+.btn3{
+	background-color:#62d7f1;
+	}
+.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+	width:147px;
+	height:30px;
+	padding-left:48px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	}
+.nav a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	line-height:166.6666666667%;
+	}
+.nav a:hover li{
+	background-color:#62d7f1;
+	color:#000;
+	}
+.nav{
+	width:195px;
+	}
+.font{
+	margin:38px 0px 0px 86px;
+	color:#fff;
+	}
+.font p{
+	margin-left:52px;
+	color:#c4f5ff;
+	}
+.font2 p{
+	margin-left:36px
+	}
+.font2{
+	margin-left:16px;
+	}
+/*----head部分----*/
+
+/*----logo部分----*/
+.logo{
+	padding-top:20px;
+	margin-left:68px;
+	}
+.logo p{
+	margin:0px 110px 0px 0px;
+	}
+.logo li{
+	margin-top:22px;
+	padding:0px 24px 0px 24px;
+	}
+
+.logo .btn1,.logo .btn2{
+		border-right:1px #cccccc dotted;
+		}
+/*----logo部分----*/
+
+/*----containt部分----*/
+.containt{
+	margin:-55px 0px 0px 48px;
+	height: 370px;
+	}
+.containt h2,.banner h2{
+	color:#09a1dd;
+	margin-bottom:29px;
+	}
+.containt p{
+	line-height: 172.72727272%;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	}
+.p2{
+	margin: 18px 0px 25px 0px;
+}
+.containt-left img{
+	height: 150px;
+	width: 150px; 
+}
+span{
+	color: #09a1dd;
+	text-decoration:underline;
+}
+.containt-left{
+	width:548px;
+	margin-right: 50px;
+}
+.containt-right p{
+	margin-bottom: 20px;
+}
+.containt-right{
+	margin-top:70px;
+}
+/*----containt部分----*/
+
+/*----banner部分----*/
+.banner{
+	margin-left: 48px;
+}
+span{
+	color: #09a4e7;
+	text-decoration: underline;
+}
+.banner-left,.banner-center,.banner-right{
+	border: 1px #cccccc solid;
+	border-radius: 10px;
+	padding:5px;
+	float: left;
+	margin-right: 40px;
+}
+.banner ul{
+	background-color: #f9f9f9;
+	width: 230px;
+	height: 196px;
+	padding: 10px;
+	position: relative;
+}
+.banner h3{
+	margin: 20px 0px 10px 15px;
+}
+.banner li p{
+	margin-left: 11px;
+	color: #8796b8;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+.banner-input{
+	padding: 8px 19px;
+	background-color: #1dc6eb;
+	border-radius: 7px;
+	border:#fff 3px solid;
+	margin: 1px;
+}
+.input-li{
+	border: 1px #e9e9e9 solid;
+	width: 112px;
+	height: 38px;
+	border-radius: 5px;
+	margin: 15px 10px;
+}
+.banner ul img{
+	position: absolute;
+	left: 170px;
+	top:136px;
+}
+/*----banner部分----*/
+
+/*----footer部分----*/
+.foot{
+	width: 960px;
+	background:url(../images/footer-img.gif);
+	height: 94px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+	text-align: center;
+}
+.footer{
+	width: 960px;
+	height: 104px;
+	background-color: #f2f2f2;
+	margin-top:204px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+}
+.bgc{
+	height: 10px;
+	width: 960px;
+}
+.foot span{
+	color: #fff;
+}
+.foot-p{
+	padding-top: 32px;
+}
+/*----footer部分----*/

@@ -1,0 +1,77 @@
+/*----nav样式----*/
+.nav .btn3 a{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2ab5ba; 
+}
+/*----nav样式----*/
+/*----containt部分----*/
+.containt{
+	width: 940px;
+	padding-top: 60px;
+	font-family: Utsaah;
+	font-size: 18px;
+}
+span,.containt a{
+	color: #2ab5ba;
+	display: block;
+	text-decoration: none;
+}
+.font{
+	text-decoration: underline;
+}
+.containt-left{
+	width: 600px;
+}
+.containt-right{
+	width: 270px;
+	margin-left: 50px;
+}
+.containt h1,span{
+	margin-bottom: 17px;
+}
+.containt p{
+	line-height: 150%;
+}
+.containt h1,.containt h2{
+	font-family: Candara;
+	letter-spacing: -1.5px;
+	font-size: 30px;
+}
+.containt-left a{
+	margin: 20px 0px 50px 0px;
+}
+.center-img,.bottom-img{
+	margin-right: 20px;
+}
+.containt-right img{
+	margin-bottom: 22px;
+}
+.left-center span,.left-bottom span{
+	margin-bottom: 10px;
+}
+.left-center a,.left-bottom span{
+	margin-top: 10px;
+}
+.bottom-img{
+	margin-top: 17px;
+}
+.left-bottom{
+	margin-top: -30px;
+}
+.containt-right a{
+	margin: 17px 0px 50px 0px;
+}
+.containt-right ul li{
+	line-height: 170%;
+	list-style: url(../images/text_li_bg_03.gif);
+}
+.containt-right ul{
+	margin-top: -3px;
+}
+/*----containt部分----*/
+/*----浮动----*/
+.containt-left,.containt-right{
+	float: left;
+}
+/*----浮动----*/

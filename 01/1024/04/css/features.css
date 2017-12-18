@@ -1,0 +1,74 @@
+.nav .btn3 a{
+	color: #e33dfd;
+}
+.containt ul .list-bg{
+	background:url(../images/About_containt_li_03.gif) right no-repeat;
+	width: 368px;
+}
+.containt ul{
+	float: left;
+	margin-right: 110px;
+	line-height: 150%;
+}
+.containt h4{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.containt ul li p{
+	float: right;
+	margin-left: 88px;
+}
+.clear{
+	clear: both;
+	width: 900px;
+	height: 20px;
+}
+.containt,.banner{
+	padding-left: 60px;
+}
+.banner h1{
+	margin-bottom: 20px;
+}
+.banner p{
+	line-height: 150%;
+	width: 850px;
+	margin-bottom: 10px;
+}
+.banner ul{
+	float: left;
+
+	width: 280px;
+}
+.banner ul li{
+	line-height: 200%;
+}
+.banner ul p img{
+	padding-right: 10px;
+}
+.list1{
+	list-style: url(../images/Features_list1_03.gif);
+}
+.list2{
+	list-style: url(../images/Features_list2_03.gif);
+}
+.list3{
+	list-style: url(../images/Features_list3_03.gif);
+}
+.list4{
+	list-style: url(../images/Features_list4_03.gif);
+}
+.list5{
+	list-style: url(../images/Features_list5_03.gif);
+}
+.list6{
+	list-style: url(../images/Features_list6_03.gif);
+}
+.list7{
+	list-style: url(../images/Features_list7_03.gif);
+}
+.list8{
+	list-style: url(../images/Features_list8_03.gif);
+}
+.list9{
+	list-style: url(../images/Features_list9_03.gif);
+}

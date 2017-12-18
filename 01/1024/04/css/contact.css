@@ -1,0 +1,81 @@
+.nav .btn6 a{
+	color: #e33dfd;
+}
+.containt-left h1{
+	margin-bottom: 25px;
+}
+.containt-left p{
+	margin-bottom: 7px;
+	color: #FFF;
+}
+.containt-left p input{
+	margin-left: 10px;
+	width: 420px;
+	height: 25px;
+	background-color: #111111;
+	border:1px #111111 solid;
+}
+.containt-left .p1 input{
+	margin-left: 35px;
+}
+.containt-left .p2 input{
+	margin-left: 32px;
+}
+.containt-left .p3 textarea{
+	margin-left: 20px;
+	height: 210px;
+	background-color: #111111;
+	border:1px #111111 solid;
+	width: 420px;
+}
+.p3 p{
+	float: left;
+}
+.containt-left a{
+	display: block;
+	background-color: #f3f3f3;
+	padding:10px 15px; 
+	border-radius: 5px;
+	text-decoration: none;
+	color: #dd00ff;
+	width: 30px;
+	float: left;
+	margin-top: 10px;
+	font-weight: 900;
+}
+.containt-left .a1{
+	margin: 10px 10px 0px 397px ;
+}
+.containt-left {
+	width: 530px;
+	margin: 0px 45px;
+	float: left;
+}
+.containt-right{
+	float: left;
+	width: 228px;
+	padding: 0px 0px 5px 25px;
+	border-left:1px #111111 solid;
+}
+.right-a{
+	color: #dd00ff;
+	text-decoration: underline;
+}
+.containt-right table tr td,.containt-right h1,.containt-right p{
+	padding-left: 20px;
+}
+.containt-right h1{
+	margin-bottom: 35px;
+}
+.containt-right table{
+	margin-bottom: 
+}
+.containt-right p{
+	line-height: 150%;
+}
+.right-h1{
+	margin-top: 50px;
+}
+.table-td{
+	color: #fff;
+}

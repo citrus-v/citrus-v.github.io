@@ -1,0 +1,96 @@
+/*----nav部分----*/
+.nav .btn2 a{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2ab5ba; 
+}
+/*----nav部分----*/
+
+/*----浮动部分----*/
+.containt-left,.containt-right,.btm-left,.btm-right{
+	float: left;
+}
+/*----浮动部分----*/
+
+/*----containt部分----*/
+.containt{
+	width: 942px;
+	font-family: Utsaah;
+	font-size: 18px;
+	padding: 72px 0px 58px 0px;
+}
+.containt-left{
+	width: 622px;
+}
+.containt-right{
+	width: 260px;
+	margin-left: 55px;
+}
+.containt h1,.containt h2{
+	font-family: Candara;
+	letter-spacing: -1.5px;
+	font-size: 30px;
+}
+.containt p{
+	line-height: 140%;
+}
+.top h1,.bottom h1{
+	margin-bottom: 20px;
+}
+.top img{
+	margin: 20px 35px 0px 0px; 	
+}
+.top p,.bottom p{
+	margin-top: 10px;
+}
+.top ul{
+	margin-top: 15px;
+}
+.top ul li{
+	line-height: 170%;
+	list-style: url(../images/text_li_bg_03.gif);
+}
+.top{
+	margin-bottom: 50px;
+}
+span,.containt a{
+	color: #2ab5ba;
+	display: block;
+	text-decoration: none;
+}
+.top a{
+	margin: 20px 0px 38px 0px;
+}
+.bottom a{
+	margin-top: 20px;
+}
+.containt-right h1{
+	margin-bottom: 15px;
+}
+.containt-right h2{
+	margin-top: 15px;
+}
+.containt-right img{
+	margin-top:15px; 
+}
+.containt-right p{
+	margin: 14px 0px;
+}
+.containt-right a{
+	margin-bottom: 25px;
+}
+.btm-left{
+	width: 301px;
+}
+.btm-right{
+	width: 301px;
+	margin-left: 15px;
+	margin-top: 57px;
+}
+.right-top{
+	margin-top: 35px;
+}
+.font{
+	text-decoration: underline;
+}
+/*----containt部分----*/

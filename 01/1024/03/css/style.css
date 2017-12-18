@@ -1,0 +1,150 @@
+/*----通用部分----*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+li {
+	list-style: none;
+}
+.warper{
+	width: 100%;
+}
+.header,.containt,.footer{
+	margin:0px auto;
+}
+.right-top img,.right-top div,.logo,.nav,.nav li{
+	float: left;
+}
+
+/*----通用部分----*/
+
+/*----header样式----*/
+.header-inner{
+	background: url(../images/header_bg_03.gif);
+	border-bottom: 1px #fff solid;
+	width: 100%;
+}
+.header{
+	width: 936px;
+}
+.logo{
+	padding:35px 137px 39px 0px;
+}
+.nav{
+	margin-top: 43px;
+}
+.btn1{
+	width: 85px;
+}
+.btn2{
+	width: 97px;
+}
+.btn3{
+	width: 106px;
+}
+.btn4{
+	width: 77px;
+}
+.btn5{
+	width: 115px;
+}
+.nav li{
+	text-align: center;
+	height: 33.5px;
+}
+.btn1,.btn2,.btn3{
+	border-right: 1px #e6e6e6 solid;
+}
+.btn4,.btn2,.btn3{
+	border-left: 1px #fff solid;
+}
+.nav a:hover{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2ab5ba; 
+}
+.nav li a{
+	color: #000;
+	font-family: Arial;
+	font-size: 15px;
+	letter-spacing: -1px;
+	font-weight: 600;
+	line-height: 280%;
+	display: block; 
+	text-decoration: none;
+	margin-top: -4px;
+}
+/*----herder样式----*/
+
+/*----footer样式----*/
+.footer-inner{
+	background: url(../images/header_bg_03.gif);
+	border-top: 1px #fff solid;
+	width: 100%;
+	padding-bottom: 60px;
+}
+.footer{
+	padding-top: 49px;
+	width: 936px;
+}
+.footer-left,.footer-center,.footer-right,.footer-right ul li{
+	float: left;
+}
+.footer-left,.footer-center{
+	height: 70px;
+}
+.footer-left{
+	border-right: 1px #e6e6e6 solid;
+}
+.footer-center{
+	width: 396px;
+	font-family: Utsaah;
+	font-size: 20px;
+	padding:0px 65px 0px 19px;
+	border-left: 1px #fff solid;
+}
+.footer-left img{
+	margin: 14px 22px 0px 0px;
+	width: 194px;
+	height: 38px;
+}
+.footer-right ul li{
+	margin:0px 10px 19px 0px;
+}
+.footer-center p{
+	line-height: 190%;
+}
+.footer-right p{
+	font-family: Utsaah;
+	font-size: 20px;
+}
+.footer a{
+	color: #2ab5ba;
+}
+/*----footer样式----*/
+/*---ball样式---*/
+.right-top h2,.right-top h1{
+	width: 142px;
+	font-family: Verdana;
+	letter-spacing: -1px; 
+	color: #2ab5ba;
+}
+.right-top h1{
+	font-size: 30px;
+	color: #000;
+}
+.right-top img{
+	padding-top: 15px;
+}.containt-inner{
+	background: url(../images/containt_bg_11.gif);
+	border-top: 1px #dcdcdc solid;
+	border-bottom: 1px #dcdcdc solid;
+	width: 100%;
+}
+/*---ball样式---*/

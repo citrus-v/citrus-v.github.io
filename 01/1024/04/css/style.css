@@ -1,0 +1,157 @@
+/*.nav .btn a{
+	color: #e33dfd;
+}
+/*----通用样式----*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear:both;
+}
+.warper{
+	width: 100%;
+}
+.header,.banner,.containt,.footer{
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+}
+li{
+	list-style: none;
+}
+.header ul li,.header ul,.header p,.logo,.nav{
+	float: left;
+}
+.containt,.footer,.banner{
+	font-family: Arial;
+	font-size: 13px;
+	color: #888888;
+}
+h1{
+	color: #fff;
+}
+/*----通用样式----*/
+
+/*----header部分----*/
+.header-inner{
+	background: url(../images/About_bg_02.gif);
+}
+.header{
+	background: url(../images/bg_top_img2.jpg);
+	background-repeat: no-repeat;
+	height: 456px;
+}
+.header p,.nav{
+	font-size: 18px;
+	font-family: Arial Rounded MT bold;
+	color: #888888;
+	margin-left: 385px;
+	padding-top: 10px;
+}
+.header span{
+	color: #fff;
+}
+.header .top li{
+	margin: 5px 13px 0px 0px;
+}
+.logo {
+	margin: 20px 0px 0px -10px;
+}
+.top{
+	margin-left: 20px;
+}
+.header-bottom-left{
+	margin: 130px 0px 0px 15px;
+}
+/*----header部分----*/
+
+/*----nav部分----*/
+.btn1{
+	width: 90px;
+}
+.btn2{
+	width: 95px;
+}
+.btn3{
+	width: 105px;
+}
+.btn4{
+	width: 80px;
+}
+.btn5{
+	width: 100px;
+}
+.btn6{
+	width:110px;
+}
+.nav li{
+	text-align: center;
+}
+.nav li a{
+	color: #000;
+	line-height: 120%;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+}
+.nav .btn1 a:hover{
+	color: #ce2b2b;
+}
+.nav .btn2 a:hover{
+	color: #f87912;
+}
+.nav .btn3 a:hover{
+	color: #f8f012;
+}
+.nav .btn4 a:hover{
+	color: #22f812;
+}
+.nav .btn5 a:hover{
+	color: #12f8f5;
+}
+.nav .btn6 a:hover{
+	color: #1c12f8;
+}
+.btn1,.btn2,.btn3,.btn5,.btn6{
+	color: #000;
+}
+.nav{
+	font-weight: 900;
+	margin: 44px 0px 0px 104px;
+
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+	border-right: 1px #000 solid;
+}
+/*----nav部分----*/
+
+/*----containt部分----*/
+.containt-inner{
+	background-color: #000000;
+	padding: 44px 0px;
+}
+.banner-inner{
+	padding: 44px 0px;
+}
+/*----containt部分----*/
+
+/*----footer部分----*/
+.footer-inner,.banner-inner{
+	background-color: #111111;
+}
+.footer{
+	padding: 40px 0px 46px 0px;
+}
+.footer p{
+	text-align: center;
+	line-height: 150%;
+}
+.footer span{
+	text-decoration: underline;
+	color: #fff;
+}
+ /*----footer部分----*/

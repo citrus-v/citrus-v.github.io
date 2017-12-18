@@ -1,0 +1,90 @@
+/*----通用样式----*/
+.containt-left a,.containt-left p,.containt-left,.containt-right{
+	float: left;
+}
+/*----通用样式----*/
+
+/*----nav样式----*/
+.nav .btn5 a{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2ab5ba; 
+}
+/*----nav样式----*/
+
+/*----containt样式----*/
+.containt-inner{
+	border-top: 1px #dcdcdc solid;
+	border-bottom: 1px #dcdcdc solid;
+	width: 100%;
+}
+.containt{
+	width: 942px;
+	font-family: Utsaah;
+	font-size: 18px;
+	padding-bottom: 58px;
+}
+.containt-left h1{
+	margin: 69px 0px 19px 0px;
+	font-family: Candara;
+	letter-spacing: -1.5px;
+}
+.containt-left p{
+	margin-top: 5px;
+	width: 80px;
+}
+.containt-left li{
+	margin-bottom: 9px;
+}
+.containt-left li input{
+	height: 26px;
+	width: 290px;
+	padding-left: 10px;
+	border:1px #fff solid;
+}
+.containt-left li textarea{
+	height: 367px;
+	width: 530px;
+	padding:7px 0px 0px 10px;
+	border:1px #fff solid;
+}
+.left-div{
+	margin-left: 500px;
+}
+.left-div a{
+	margin-left: 30px;
+	color: #2ab5ba;
+}
+.containt-right{
+	margin-left: 58px;
+	padding-top: 119px;
+	width: 242px;
+}
+.right-top h2,.right-top h1{
+	width: 140px;
+	font-family: Verdana;
+	letter-spacing: -1px; 
+	color: #2ab5ba;
+}
+.right-top h1{
+	font-size: 30px;
+	color: #000;
+}
+.right-top img{
+	padding-top: 15px;
+}
+.right-bottom p{
+	line-height: 172.727316%;
+	margin-top: 12px;
+}
+.right-bottom h1{
+	margin-top: 60px;
+}
+.p1{
+	margin-bottom: 20px;
+}
+.right-bottom table a,.footer-p a{
+	color: #2ab5ba;
+}
+/*----containt样式----*/
+

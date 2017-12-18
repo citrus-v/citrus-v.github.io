@@ -1,0 +1,56 @@
+.nav .btn5 a{
+	color: #e33dfd;
+}
+.banner span{
+	margin: 25px 0px 15px 0px;
+	color: #fff;
+	margin-left: 20px;
+	width: 900px;
+}
+.banner h1{
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+.banner p{
+	width: 800px;
+	line-height: 150%;
+}
+.banner .p2{
+	margin: 20px 20px;
+}
+.banner ul li{
+	list-style: url(../images/About_containt_li_03.gif);
+	color: #dd00ff; 
+	line-height: 180%;
+}
+.banner ul{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.containt-box{
+	float: left;
+}
+.containt-box{
+	padding: 45px 30px;
+	margin-right: 80px;
+	text-align: center;
+	background-color: #111111;
+}
+.containt-box span{
+	text-decoration: underline;
+	color: #dd00ff;
+}
+.containt-box a{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px 30px;
+	font-size: 23px;
+	color:#dd00ff;
+	text-decoration: none;
+	display: block;
+	margin-top: 15px;
+	font-weight: 600;
+}
+.containt-box p{
+	margin-bottom: 5px;
+}

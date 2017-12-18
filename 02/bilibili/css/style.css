@@ -1,0 +1,123 @@
+﻿/*---通用样式---*/
+body,h1,h2,span,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.warper{
+	width:100%;
+	position: relative;
+	font-family: 黑体;
+	font-size: 13px;
+}
+.nav,.containt,.footer{
+	width: 966px;
+	margin: 0 auto;
+}
+.float{
+	float: left;
+}
+li{
+	list-style: none;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+/*---通用样式---*/
+
+/*---nav部分---*/
+.header{
+	background: #fff;
+	opacity: 0.8;
+}
+.nav{
+	font-size: 13.6px;
+	position: relative;
+	height: 40px;
+	padding-left: 35px;
+	z-index: 2;
+}
+.nav .btn1{
+	position: relative;
+}
+.nav .btn1 img{
+	width: 22px;
+	height: 17px;
+	position: absolute;
+	top: 10px;
+	left: -8px;
+	z-index: -1;
+}
+.nav li{
+	float: left;
+	font-family: 黑体;
+	text-align: center;
+}
+.nav p{
+	color: #fff;
+	font-size: 12px;
+	height: 8px;
+	width: 20px;
+	background-color: #f73c3c;
+	padding:0 0 1px 2px;
+	border-radius: 35px;
+	font-family: Microsoft Himalaya;
+}
+.nav a,.nav .btn6,.nav .btn7{
+	cursor: pointer;
+	width: 58px;
+	line-height: 300%;
+	box-shadow: inset 0 0 30px rgba(255,255,255,0);
+}
+.nav a:hover,.nav .btn6:hover,.nav .btn7:hover{
+	line-height: 310%;
+	box-shadow: inset 0 0 15px rgba(155,167,172,0.3);
+}
+.nav .new1{
+	position: absolute;
+	top: 5px;
+	left:245px;
+}
+.nav .new2{
+	position: absolute;
+	top: 5px;
+	left: 963px;
+}
+.nav .btn6{
+	margin-left: 600px;
+}
+
+/*---nav部分---*/
+
+/*---footer部分---*/
+.footer-inner{
+	background: #eaeaea;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.footer{
+	margin-top: 80px;
+	padding-bottom: 30px;
+}
+.footer p{
+	text-align: center;
+}
+.top-p{
+	padding-top: 50px;
+}
+.bottom-p{
+	margin-left: 310px;
+}
+.bottom-p a{
+	float: left;
+	text-align: center;
+	margin: 17px;
+}
+/*---footer部分---*/

@@ -1,0 +1,9 @@
+.header{
+	height: 42px;
+}
+.banner-inner{
+	background: url(../images/zbian1.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 400px;
+}

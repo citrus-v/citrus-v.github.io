@@ -1,0 +1,123 @@
+/*----banner部分----*/
+.banner-inner{
+	background: url(zb_bj.jpg);
+	background-size: 100%;
+}
+.header{
+	height: 42px;
+}
+.banner{
+	width: 966px;
+	margin: 0 auto;
+	height: 525px;
+}
+.ban-left{
+	padding: 23px 0 0 20px;
+}
+.ban-left img{
+	width: 777px;
+	height: 478px;
+}
+.header ul{
+	position: relative;
+}
+#ul-img{
+	position: absolute;
+	left: 198px;
+	top: 8px;
+}
+#ul-img1{
+	position: absolute;
+	left: 198px;
+	top: 13px;
+}
+.btn4{
+	margin-right: 13px;
+}
+.ban-right {
+	width: 150px;
+	margin: 20px 0 0 13px; 
+}
+.ban-right ul li img{
+	width: 150px;
+	margin-bottom: 3px;
+}
+#ul2{
+	position: relative;
+}
+#ximg1{
+	top: -490px;
+}
+#ximg2{
+	top: -392px;
+}
+#ximg3{
+	top: -294px;
+}
+#ximg4{
+	top: -196px;
+}
+#ximg5{
+	top: -98px;
+}
+#ximg1,#ximg2,#ximg3,#ximg4,#ximg5{
+	position: absolute;
+	display: none;
+}
+.con-top img{
+	width: 630px;
+}
+.con-top{
+	margin: 20px 0 0 20px;
+}
+.top-ul li,.bottom-ul li{
+	float: left;
+}
+.con-left img{
+	width: 200px;
+	margin: 0px 10px 0 10px;
+}
+.con-right img{
+	margin-top: -38px;
+	width: 300px;
+	height: 290px;
+}
+.zb_gg img{
+	margin:15px 0 0 10px;
+	width: 950px;
+}
+.zb-bottom img,.zb-center img{
+	margin:20px 0 0 10px;
+	width: 950px;
+}
+.none-ul{
+	position: relative;
+}
+#zb-li1,#zb-li2,#zb-li3,#zb-li4,#zb-li5,#zb-li6{
+	position: absolute;
+	height: 116px;
+	overflow: hidden;
+}
+#tjzb1,#tjzb2,#tjzb3,#tjzb4,#tjzb5,#tjzb6{
+	margin-top: 96px;
+}
+#zb-li2{
+	left: 217px;
+}
+#zb-li3{
+	top: -249px;
+	left: 439px;
+}
+#zb-li5{
+	left: 220px;
+}
+#zb-li6{
+	left: 438px;
+}
+#zb-li1,#zb-li2{
+	top: -250px;
+}
+#zb-li4,#zb-li5,#zb-li6{
+	top: -122px
+}
+/*----banner部分----*/

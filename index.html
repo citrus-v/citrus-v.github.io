@@ -5,19 +5,78 @@
     <meta charset="UTF-8">
     <title>citrus-v</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index/style.css"> </head>
 
-<body onLoad="type()">
-    <div id="txt"></div>
-    <div id="zero"> 
-        <p><span><a href="#">个人主页</a></span></p>
-        <p><span>功能网址：</span></p>
-        <p><a href="http://bigjpg.com" target="_blank">1、图片不失真渲染放大.</a></p>
-        <p><a href="http://www.swiper.com.cn/" target="_blank">2、swiper 中文网</a></p>
-        <p><a href="http://www.bootcdn.cn/" target="_blank">3、cdn 链接地址</a></p>
-        <p><span>微场景：</span></p> 
-        <p><a href="nianhuiyaoqinghan/index.html" target="_blank">1、年会邀请函。</a></p> 
+<body onload="type()">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="txt"></div>
+                <div id="zero">
+                    <div class="text-center">
+                        <h1><a href="#" style="margin-left:-23px" target="_blank">个人主页</a>
+                        </h1><span class="selfon"><a href="#" style="margin-left:-23px">(点击进入)</a></span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5" >
+                        <div>
+                            <h3>功能网址：</h3>
+                            <p><a href="http://bigjpg.com" target="_blank">1、图片不失真渲染放大</a></p>
+                            <p><a href="http://www.swiper.com.cn/" target="_blank">2、swiper 中文网</a></p>
+                            <p><a href="http://www.bootcdn.cn/" target="_blank">3、cdn 链接地址</a></p>
+                            <p><a href="http://www.bootcss.com/" target="_blank">4、bootstrap中文网</a></p>
+                        </div>
+                        <div>
+                            <h3>稚初之时：</h3>
+                            <p onclick="list1024show()"><span class="a1024">
+                              <span class="bg-1024"></span>1024分辨率页面
+                                <ul class="list-1024">
+                                    <li><a href="01/1024/01/index.html" target="_blank">1、小组合作制作 ps 鬼泣</a></li>
+                                    <li><a href="01/1024/02/index.html" target="_blank">2、Hope Center</a></li>
+                                    <li><a href="01/1024/03/home.html" target="_blank">3、InterentCafe</a></li>
+                                    <li><a href="01/1024/04/About.html" target="_blank">4、Web hosting</a></li>
+                                </ul>
+                                </span>
+                            </p>
+                            <p onclick="list1366show()"><span class="a1366">
+                              <span class="bg-1366"></span>1366分辨率页面
+                                <ul class="list-1366">
+                                    <li><a href="01/1366/01/index.html" target="_blank">1、Event</a></li>
+                                    <li><a href="01/1366/02/index.html" target="_blank">2、Good Cook</a></li>
+                                </ul>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <!--从最开始做的一些小项目-->
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="margin-left:-20px;">
+                        <div>
+                            <h3>邯郸学步时：</h3>
+                            <p><a href="02/bilibili/zz.html" target="_blank">1、哔哩哔哩</a></p>
+                            <p><a href="02/fabiao/index.html" target="_blank">2、法标珠光沐浴</a></p>
+                        </div>
+                        <div>
+                            <h3>响应式：</h3>
+                            <p><a href="xiangyingshi/01/index.html" target="_blank">1、Blog</a></p>
+                            <p><a href="xiangyingshi/02/index.html" target="_blank">2、Dave</a></p>
+                            <p><a href="xiangyingshi/03/index.html" target="_blank">3、Themes</a></p>
+                            <p><a href="xiangyingshi/04/index.html" target="_blank">4、Pos app</a></p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div>
+                            <h3>微场景：</h3>
+                            <p><a href="nianhuiyaoqinghan/index.html" target="_blank">1、年会邀请函</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.5.7/vue.min.js"></script>
     <script src="index/script.js"></script>
 </body>
 

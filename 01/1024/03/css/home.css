@@ -1,0 +1,94 @@
+/*----通用部分----*/
+.text-left,.right-top,.ul_left,.ul_right,.bottom-left,.bottom-right{
+	float: left;
+}
+span,.bottom-right a,.p1,.p2,.ul_right a{
+	color:#00989d;
+}
+/*----通用部分----*/
+
+/*----nav样式----*/
+.nav .btn1 a{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2ab5ba; 
+}
+/*----nav样式----*/
+
+/*----containt部分----*/
+.containt{
+	margin: 0 auto;
+	width: 964px;
+	font-family: Utsaah;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+.banner{
+	background: url(../images/slider-bg.png);
+	background-repeat: no-repeat;
+	margin:49px 0px 8px 0px;
+	padding-bottom:50px;  
+}
+/*----containt部分----*/
+
+/*----text部分----*/
+.text-left h1{
+	font-family: Verdana;
+	letter-spacing:-1px;
+}
+.text-left{
+	width: 610px;
+}
+.text-left p,.bottom-left ul li{
+	margin-top: 15px;
+}
+.right-top{
+	margin: 38px 0px 0px 74px;
+}
+.text-bottom{
+	margin-top: 46px;
+}
+.text-left p,.bottom-left ul li,.ul_right p{
+	line-height: 150%;
+}
+.text-bottom h2,.bottom-right h2{
+	font-size:37px;
+	letter-spacing: -1px;
+}
+/*----text部分----*/
+
+/*----bottom部分----*/
+.bottom-right{
+	width: 200px;
+	margin-left: 56px;
+}
+.bottom-left li{
+	list-style:  url(../images/text_li_bg_03.gif);
+	background-repeat: no-repeat;
+}
+.bottom-left ul{
+	width: 300px;
+}
+.ul_left{
+	margin-left: 15px;
+}
+.ul_right{
+	margin-left: 20px;
+}
+.ul_right a{
+	margin-top: 40px;
+	display: block;
+}
+.p1,.p2{
+	margin: 18px 0px 23px 0px;
+}
+span{
+	margin-top: 100px;
+}
+.bottom-right a,.ul_right a{
+	text-decoration: none;
+}
+.font{
+	text-decoration: underline;
+}
+/*----bottom部分----*/

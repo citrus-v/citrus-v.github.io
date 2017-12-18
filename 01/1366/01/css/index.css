@@ -1,0 +1,173 @@
+﻿@charset "utf-8";
+/*----通用样式----*/
+body,ul,li,p,h1,h3{
+	margin:0 auto;
+	padding:0px;
+	}
+.login,.header,.containt,.footer{
+	margin:0 auto;
+	width:933px;
+	}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
+a{
+	text-decoration:none;
+	}
+li{
+	list-style:none;
+	}
+.nav li,.footer-nav li{
+	float:left;
+	}
+.login li a,.nav li a,.footer-nav li a{
+	font:16px Kartika;
+	}
+/*----通用样式----*/
+
+/*---login的样式---*/
+.login-inner{
+	background:url(../images/login-inner_bg_02.gif);
+	}
+.login li{
+	float:right;
+	line-height:162.5%;
+	background:url(../images/lister_03.gif) right no-repeat;
+	}
+.login-btn{
+	width:54px;
+	}
+.resister-btn{
+	width:72px;
+	margin:0px 3px 0px 12px;
+	}
+.login li a{
+	color:#ffffe9;
+	}
+/*---login的样式---*/
+
+/*---header的样式---*/
+.header-inner{
+	border-top:1px #e6dcd0 dashed;
+	border-bottom:1px #e6dcd0 dashed;
+	height:140px;
+	background:url(../images/header-inner_bg_03.gif);
+	}
+.logo{
+	margin:37px 0px 0px 37px;
+	}
+/*---header的样式---*/
+
+/*---containt的样式---*/
+.nav {
+	padding:3px 0px 3px 72px;
+	background-color:#ffffff;
+	border-bottom:1px #979485 dashed;
+	margin-bottom:10px;
+	}
+.nav li {
+	text-align:center;
+	
+	}
+.nav li a{
+	display:block;
+	line-height:206.25%;
+	font-weight:700;
+	}
+.nav li a:hover{
+	color:#fff;
+	display:block;
+	width:132px;
+	background-color:#2f2a27;
+	line-height:206.25%;
+	}
+.nav .btn6,.nav .btn1{
+	width:132px;
+	}
+.nav .btn2,.nav .btn3,.nav .btn4,.nav .btn5{
+	width:131px;
+	border-right:1px #878883 dashed;
+	}
+.nav .btn1 {
+	background-color:#2f2a27;
+	}
+.nav .btn1 a{
+	color:#fff;
+	}
+.nav .btn2 a,.nav .btn3 a,.nav .btn4 a,.nav .btn5 a,.nav .btn6 a{
+	color:#4d2a27;
+	}
+.containt-inner {
+	height:100%;
+	background:#f2efdc;
+	}
+/*---containt的样式---*/
+/*---main的样式---*/
+.main h1,.text-btn a{
+	font-family:Euphemia;
+	color:#d63b2f;
+	font-weight:600;
+	}
+.text-btn{
+	text-align:right;
+	font-size:16px;
+	}
+.main,.txt,.main h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+.main h1 {
+	font-size:28px;
+	}
+.main h2 {
+	font-size:22px;
+	font-weight:100;
+	color:#000;
+	width:209px;
+	background-color:#fff;
+	line-height:122.72727272%;
+	letter-spacing:-0.5px;
+	}
+.main .txt{
+	font-size:18px;
+	color:#848161
+	}
+.main .txt span{
+	font-weight:700;
+	}
+/*---main的样式---*/
+
+
+/*---sidebar的样式---*/
+.sidebar{
+	padding:50px 0px 50px 0px;
+	}
+/*---sidebar的样式---*/
+
+/*---footer的样式---*/
+.footer-inner{
+	height:196px;
+	background:url(../images/footer-inner_bg_03.gif);
+	}
+.footer-nav li{
+	padding:0px 10px 0px 10px;
+	margin:30px 0px 5px 0px;
+	}
+.footer-nav li a{
+	color:#bebfc1;
+	}
+.footer-btn1,.footer-btn2,.footer-btn3,.footer-btn4,.footer-btn5{
+	border-right:2px #bebfc1 solid;
+	}
+.footer-nav{
+	width:523px;
+	height:101px;
+	text-align:center;
+	}
+.footer-nav p{
+	margin:3px;
+	color:#bebfc1;
+	}
+/*---footer的样式---*/
