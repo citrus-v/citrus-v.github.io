@@ -490,3 +490,377 @@ body {
     padding-left: 5%;
 }
 
+
+
+.s4 .main img {
+    width: 80%;
+
+}
+
+.s4 .main {
+    position: relative;
+}
+
+.s4 .main .text .text-left {
+    position: absolute;
+    top: 18px;
+    left: 25%;
+    font-weight: bold;
+}
+
+.s4 .main .text .text-right {
+    position: absolute;
+    top: 18px;
+    right: 25%;
+    font-weight: bold;
+    color: #019fdc
+}
+
+.s4 .main .text .text-left span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    padding: 4px;
+    background: #2cf8b1;
+}
+
+.s4 .main .text .text-right span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    padding: 4px;
+    background: #019fdc;
+}
+
+.s4 .main .text .list1 {
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    left: 10%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.s4 .main .text .list1 li {
+    background: url("../img/15.png");
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.s4 .main .text .list1 li div {
+    padding-left: 20px;
+    margin-bottom: 4px;
+}
+
+.s4 .main .text .list1 li div:nth-of-type(1) span {
+    color: white;
+}
+
+.s4 .main .text .list1 li:nth-of-type(1) div:nth-of-type(2) p {
+    width: 70%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #26f9b2);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #26f9b2);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #26f9b2);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #26f9b2);
+
+}
+
+.s4 .main .text .list1 li:nth-of-type(1) div:nth-of-type(3) p {
+    width: 35%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #00bffe);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #00bffe);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #00bffe);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #00bffe);
+
+}
+
+.s4 .main .text .list1 li:nth-of-type(2) div:nth-of-type(2) p {
+    width: 60%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #26f9b2);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #26f9b2);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #26f9b2);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #26f9b2);
+
+}
+
+.s4 .main .text .list1 li:nth-of-type(2) div:nth-of-type(3) p {
+    width: 30%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #00bffe);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #00bffe);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #00bffe);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #00bffe);
+
+}
+
+.s4 .main .text .list1 li:nth-of-type(3) div:nth-of-type(2) p {
+    width: 55%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #26f9b2);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #26f9b2);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #26f9b2);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #26f9b2);
+
+}
+
+.s4 .main .text .list1 li:nth-of-type(3) div:nth-of-type(3) p {
+    width: 25%;
+    height: 16px;
+    display: inline-block;
+    background: -webkit-linear-gradient(left, #040e29, #00bffe);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #040e29, #00bffe);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #040e29, #00bffe);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #040e29, #00bffe);
+
+}
+
+.s4 .main .text .list1 div:nth-of-type(2) span, .s4 .main .text .list1 div:nth-of-type(3) span {
+    padding-left: 5px;
+}
+
+.s4 .main .text .text-bottom {
+    position: absolute;
+    bottom: 50px;
+    width: 80%;
+    font-size: 16px;
+    left: 10%;
+}
+
+
+
+.s5 .main {
+    position: relative;
+}
+
+.s5 .main img {
+    /*width: 38%;*/
+    /*position: absolute;*/
+}
+
+.s5 .main .bg1 {
+    width: 38%;
+    position: absolute;
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 38%;
+    height: 170px;
+    left: 10%;
+}
+
+.s5 .main .bg2 {
+    width: 38%;
+    position: absolute;
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 38%;
+    height: 170px;
+    right: 10%;
+}
+
+.s5 .main .bg3 {
+    width: 38%;
+    position: absolute;
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 38%;
+    height: 170px;
+    left: 10%;
+    top: 200px;
+}
+
+.s5 .main .bg4 {
+    width: 38%;
+    position: absolute;
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 38%;
+    height: 170px;
+    right: 10%;
+    top: 200px;
+}
+
+.s5 .main > div img {
+    margin-top: 15px;
+}
+
+.s5 .main > div p {
+    font-size: 14px;
+
+}
+
+.s5 .main > div span {
+    color: black;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #00e7f9, #01fc9f);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #00e7f9, #01fc9f);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #00e7f9, #01fc9f);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #00e7f9, #01fc9f);
+}
+
+
+
+.s6 .main {
+    border-left: 1px dashed #06ebca;
+    height: 61%;
+    width: 80%;
+    margin: auto;
+
+}
+
+.s6 .main .list2 {
+    list-style: none;
+}
+
+.s6 .main .list2 li {
+    margin-left: -62px;
+}
+
+.s6 .main .list2 li span {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #00536f;
+    border: 2px solid #004157;
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.s6 .main .list2 li span .pic {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2dfab5;
+    display: inline-block;
+}
+
+.s6 .main .list2 li h3 {
+    background: -webkit-linear-gradient(left, #25fcae, #010217);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #25fcae, #010217);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #25fcae, #010217);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #25fcae, #010217);
+    border-top-left-radius: 20px;
+    color: black;
+    height: 26px;
+    width: 256px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 26px;
+    margin-left: 8px;
+    padding-left: 16px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.s6 .main .list2 li div {
+    width: 75%;
+    background: radial-gradient(circle farthest-corner, #040927, #004256);
+    border-radius: 10px;
+    margin-left: 87px;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+}
+
+.s6 .main .list2 li div p {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.s7 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px
+}
+
+.s7 .main img {
+    width: 80%;
+}
+
+.s7 .main {
+    position: relative;
+}
+
+.s7 .main .text {
+    position: absolute;
+    padding: 5%;
+    top: 0px;
+    width: 80%;
+    left: 10%;
+    margin-top: 10px;
+}
+
+.s7 .main .text input {
+    width: 90%;
+    height: 58px;
+    padding-left: 10px;
+}
+
+.s7 .main .text input:nth-of-type(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s7 .main .text button {
+    width: 90%;
+    height: 58px;
+    background: #00f2ca;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.s7 .main .main-footer {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    font-size: 14px;
+    line-height: 1.6rem;
+    text-align: left;
+    width: 240px;
+    margin-left: -120px;
+
+}
